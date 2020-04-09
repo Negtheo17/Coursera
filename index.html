@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module2-solution</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="b.css">
+</head>
+<body>
+
+
+	<style type="text/css">
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	text-align: center;
+	margin-top: 19px;
+	margin-bottom: 40px;
+}
+
+.row {
+	width: 100%;
+}
+
+
+
+p{
+	background-color: gray;
+	padding:  10px 10px 10px 10px;
+	border: 2px solid black;
+	height: 160px;
+	width: 300px;
+	margin-left: 155px;
+	margin-right: auto;*
+	position: relative;
+	font-family: cursive;
+
+
+
+}
+
+#content1 {
+	background-color: pink;
+	text-align: center;
+	border: 2px solid black;
+	width: 100px;
+	height: 30px;
+	left: 355px;
+	top: 30px;
+	font-family: cursive;
+	position: relative;
+
+	
+
+}
+#content2 {
+	background-color: red;
+	text-align: center;
+	border: 2px solid black;
+	width: 100px;
+	height: 30px;
+	left: 355px;
+	top: 30px;
+	font-family: cursive;
+	position: relative;
+	
+}
+#content3 {
+	background-color: aqua;
+	text-align: center;
+	border: 2px solid black;
+	width: 100px;
+	height: 30px;
+	left: 355px;
+	top: 30px;
+	font-family: cursive;
+	position: relative;
+}
+
+
+/********Bureau*******/
+
+@media ( min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, 
+	.col-lg-11, .col-lg-12 {
+		float: left;
+		
+	}
+	.col-lg-1 {
+		width: 8.33%;
+
+	}
+	.col-lg-2 {
+		width: 16.66%;
+	}
+
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-4 {
+		width: 33%;
+	}
+	.col-lg-5 {
+		width: 41.66%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-7 {
+		width: 58.33%;
+	}
+	.col-lg-8 {
+		width: 66.66%;
+	}
+	.col-lg-9 {
+		width: 74.99%;
+	}
+	.col-lg-10 {
+		width: 83.33%;
+	}
+	.col-lg-11 {
+		width: 91.66%;
+	}
+	.col-lg-12 {
+		width: 100%;
+	}
+
+}
+/*********Tablettes**********/
+@media ( min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, 
+	.col-md-11, .col-md-12 {
+		float: left;
+		
+	}
+	.col-md-1 {
+		width: 8.33%;
+
+	}
+	.col-md-2 {
+		width: 16.66%;
+	}
+
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-4 {
+		width: 33%;
+	}
+	.col-md-5 {
+		width: 41.66%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-7 {
+		width: 58.33%;
+	}
+	.col-md-8 {
+		width: 66.66%;
+	}
+	.col-md-9 {
+		width: 74.99%;
+	}
+	.col-md-10 {
+		width: 83.33%;
+	}
+	.col-md-11 {
+		width: 91.66%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+
+}
+/********Mobiles*********/
+
+@media ( min-width: 766px) or (max-width: 767px) {
+	.col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10, 
+	.col-m-11, .col-m-12 {
+		float: left;
+	
+	}
+	.col-m-1 {
+		width: 8.33%;
+
+	}
+	.col-m-2 {
+		width: 16.66%;
+	}
+
+	.col-m-3 {
+		width: 25%;
+	}
+	.col-m-4 {
+		width: 33%;
+	}
+	.col-m-5 {
+		width: 41.66%;
+	}
+	.col-m-6 {
+		width: 50%;
+	}
+	.col-m-7 {
+		width: 58.33%;
+	}
+	.col-m-8 {
+		width: 66.66%;
+	}
+	.col-m-9 {
+		width: 74.99%;
+	}
+	.col-m-10 {
+		width: 83.33%;
+	}
+	.col-m-11 {
+		width: 91.66%;
+	}
+	.col-m-12 {
+		width: 100%;
+	}
+}
+	</style>
+
+	<h1>Our Menu</h1>
+
+	<div class="row">
+		<div class="col-lg-3 col-md-6 col-m-2">
+			<div id="content1">Poulet</div>
+			<p><br>Je suis ici pour vous vendre de la viande. Et je vous en sers soit en gros soit en détail. Vous n'avez qu'à dire de quelle façon vous la voulez et je me ferrai le plaisir de vous servir.</p></div>
+
+		<div class="col-lg-3 col-md-6 col-m-2">
+			<div id="content2">Boeuf</div>
+			<p><br>Je suis ici pour vous vendre de la viande. Et je vous en sers soit en gros soit en détail. Vous n'avez qu'à dire de quelle façon vous la voulez et je me ferrai le plaisir de vous servir.</p></div>
+
+		<div class="col-lg-3 col-md-6 col-m-2">
+			<div id="content3">Sushi</div>
+			<p><br>Je suis ici pour vous vendre de la viande. Et je vous en sers soit en gros soit en détail. Vous n'avez qu'à dire de quelle façon vous la voulez et je me ferrai le plaisir de vous servir.</p></div>
+	</div>
+
+
+</body>
+</html>
