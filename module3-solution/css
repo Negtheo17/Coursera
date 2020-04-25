@@ -1,0 +1,69 @@
+h1 {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	color: black;
+}
+
+
+#content1, #content2, #content3 {
+	background-color: gray;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: cursive;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+
+p{
+	color: black;
+	margin: 30px;
+}
+
+
+
+/*
+.navbar-toggler {
+  padding: 9px 10px;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  position: relative;
+  
+}
+
+
+#header-nav {
+	background-color: black;
+	height: 60px;
+	margin: auto;
+	border-radius: 3px;
+
+}
+
+body {
+	background-color: #61122f;
+	font-size: 15px;
+}
+
+*/
+.navbar-brand {
+	text-align: left;
+	position: relative;
+	font-family: cursive;
+	font-size: 20px;
+	margin-left: 7px;
+	font-weight: bold;
+
+
+}
+
+.dropdown-menu{
+	position: relative;
+}
